@@ -1,3 +1,4 @@
+import TriggerCitiesMap from './components/Map';
 import { YEAR, BODY } from './content';
 
 export default function Home() {
@@ -15,6 +16,9 @@ export default function Home() {
         <div className="gradient-circle-left"></div>
         <div className="gradient-circle-right"></div>
         <div className="mx-auto max-w-screen-sm leading-relaxed whitespace-pre-line">{BODY}</div>
+      </div>
+      <div className="w-screen mt-36">
+        <TriggerCitiesMap />
       </div>
     </main>
   );
