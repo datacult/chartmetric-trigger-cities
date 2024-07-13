@@ -3,6 +3,7 @@
 import * as React from 'react';
 import Head from 'next/head';
 import Map, { NavigationControl } from 'react-map-gl/maplibre';
+import './mapstyles.css';
 
 const TriggerCitiesMap = () => {
   const mapRef = React.useRef(null);
@@ -17,7 +18,7 @@ const TriggerCitiesMap = () => {
   return (
     <>
       <Head>
-        <link href="https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css" rel="stylesheet" />
+        <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
       </Head>
       <Map
         // onDrag={() => (window.map = mapRef.current)}
@@ -28,7 +29,7 @@ const TriggerCitiesMap = () => {
           zoom: 2,
         }}
         style={{ width: '100%', height: 620 }}
-        mapStyle="https://raw.githubusercontent.com/datacult/chartmetric-trigger-cities/main/map_style.json"
+        mapStyle="map_style.json"
         scrollZoom={false}
       >
         <NavigationControl position="top-right" showZoom={true} />
