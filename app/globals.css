@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: #F4F4F4;
+  --background-rgb: #1D1D21;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
@@ -16,14 +17,13 @@
   }
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--foreground-rgb);
+  background: var(--background-rgb);
 }
 
 @layer utilities {
@@ -31,3 +31,26 @@ body {
     text-wrap: balance;
   }
 }
+
+.gradient-circle-left {
+  z-index: -100;
+  position: absolute;
+  top: -300px;
+  left: -450px;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background: radial-gradient(circle 800px at center center,rgba(2, 122, 255, 1), rgba(0, 133, 255, 0) 350px, #1D1D21);
+}
+
+.gradient-circle-right {
+  z-index: -100;
+  position: absolute;
+  top: -600px;
+  right: -550px;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background: radial-gradient(circle 800px at center center,rgba(0, 255, 240, 1), rgba(0, 255, 240, 0) 350px, #1D1D21);
+}
+
