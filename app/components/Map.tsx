@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import Head from 'next/head';
-import Map from 'react-map-gl/maplibre';
+import Map, { NavigationControl } from 'react-map-gl/maplibre';
 
 const TriggerCitiesMap = () => {
   const mapRef = React.useRef(null);
@@ -27,10 +27,12 @@ const TriggerCitiesMap = () => {
           latitude: 37.8,
           zoom: 2,
         }}
-        style={{ width: '100%', height: 720 }}
+        style={{ width: '100%', height: 620 }}
         mapStyle="https://raw.githubusercontent.com/datacult/chartmetric-trigger-cities/main/map_style.json"
         scrollZoom={false}
-      />
+      >
+        <NavigationControl position="top-right" showZoom={true} />
+      </Map>
     </>
   );
 };
