@@ -1,0 +1,211 @@
+CITY_ID,CITY_NAME,TRIGGER_CITY_COUNT,TRIGGER_CITY_TIER,CITY_POPULATION,CITY_LAT,CITY_LNG,COUNTRY_NAME,CONTINENT,CITY_TOP_GENRE,CITY_TOP_5_GENRES
+1669,Santiago,43,Tier 1,5720000,-33.45,-70.667,Chile,South America,Pop,"[
+  ""Pop"",
+  ""Rock"",
+  ""Latin"",
+  ""Alternative"",
+  ""Latin Pop""
+]"
+4072,Mexico City,41,Tier 1,19028000,19.4424,-99.131,Mexico,North America,Latin,"[
+  ""Latin"",
+  ""Pop"",
+  ""Latin Pop"",
+  ""Rock"",
+  ""Alternative""
+]"
+7060,New York City,37,Tier 1,19354922,40.6943,-73.9249,United States,North America,Hip-Hop/Rap,"[
+  ""Hip-Hop/Rap"",
+  ""Pop"",
+  ""R&B/Soul"",
+  ""Rock"",
+  ""Latin""
+]"
+3217,Jakarta,36,Tier 1,10154134,-6.1744,106.8294,Indonesia,Asia,Pop,"[
+  ""Pop"",
+  ""Dance"",
+  ""R&B/Soul"",
+  ""Alternative"",
+  ""Rock""
+]"
+595,Sydney,31,Tier 1,4840600,-33.92,151.1852,Australia,Oceania,Pop,"[
+  ""Pop"",
+  ""Rock"",
+  ""Dance"",
+  ""Alternative"",
+  ""Electronic""
+]"
+4679,Lima,29,Tier 1,8894000,-12.048,-77.0501,Peru,South America,Latin,"[
+  ""Alternative"",
+  ""Latin"",
+  ""Pop"",
+  ""Rock"",
+  ""Latin Pop""
+]"
+1172,São Paulo,28,Tier 2,18845000,-23.5587,-46.625,Brazil,South America,Pop,"[
+  ""Alternative"",
+  ""Dance"",
+  ""Pop"",
+  ""Latin"",
+  ""Rock""
+]"
+6291,London,26,Tier 2,8825001,51.5,-0.1167,United Kingdom,Europe,Pop,"[
+  ""Dance"",
+  ""Rock"",
+  ""Alternative"",
+  ""Pop"",
+  ""Electronic""
+]"
+5983,Bangkok,25,Tier 2,6704000,13.75,100.5166,Thailand,Asia,Pop,"[
+  ""K-Pop"",
+  ""Alternative"",
+  ""Rock"",
+  ""Pop"",
+  ""R&B/Soul""
+]"
+3828,Kuala Lumpur,25,Tier 2,1768000,3.1667,101.7,Malaysia,Asia,Pop,"[
+  ""K-Pop"",
+  ""Alternative"",
+  ""R&B/Soul"",
+  ""Alternative Rock"",
+  ""Pop""
+]"
+2141,Bogotá,24,Tier 2,7963000,4.5964,-74.0833,Colombia,South America,Latin,"[
+  ""Latin"",
+  ""Pop"",
+  ""Rock"",
+  ""Latin Pop"",
+  ""Alternative""
+]"
+5464,Singapore,23,Tier 2,5638700,1.293,103.8558,Singapore,Asia,Pop,"[
+  ""Pop"",
+  ""Rock"",
+  ""Alternative"",
+  ""Dance"",
+  ""R&B/Soul""
+]"
+7058,Los Angeles,22,Tier 2,12815475,34.1139,-118.4068,United States,North America,Pop,"[
+  ""Alternative"",
+  ""Latin"",
+  ""Rock"",
+  ""Pop"",
+  ""Hip-Hop/Rap""
+]"
+4069,Guadalajara,21,Tier 3,4198000,20.67,-103.33,Mexico,North America,Latin,"[
+  ""Latin"",
+  ""Pop"",
+  ""Rock"",
+  ""Latin Pop"",
+  ""Alternative""
+]"
+3215,Bandung,19,Tier 3,2394873,-6.95,107.57,Indonesia,Asia,Pop,"[
+  ""Pop"",
+  ""Alternative"",
+  ""R&B/Soul"",
+  ""Rock"",
+  ""Alternative Rock""
+]"
+594,Melbourne,19,Tier 3,4529500,-37.82,144.975,Australia,Oceania,Pop,"[
+  ""Pop"",
+  ""Rock"",
+  ""Alternative"",
+  ""Dance"",
+  ""Electronic""
+]"
+7057,Chicago,18,Tier 3,8675982,41.8373,-87.6862,United States,North America,Pop,"[
+  ""Pop"",
+  ""Hip-Hop/Rap"",
+  ""Rock"",
+  ""R&B/Soul"",
+  ""Alternative""
+]"
+362,Buenos Aires,17,Tier 3,12795000,-34.6025,-58.3975,Argentina,South America,Pop,"[
+  ""Pop"",
+  ""Latin"",
+  ""Rock"",
+  ""Latin Pop"",
+  ""Alternative""
+]"
+4689,Quezon City,17,Tier 3,2936116,14.6504,121.03,Philippines,Asia,Pop,"[
+  ""Pop"",
+  ""Alternative"",
+  ""Alternative Rock"",
+  ""Hip-Hop/Rap"",
+  ""Rock""
+]"
+3493,Tokyo,17,Tier 3,35676000,35.685,139.7514,Japan,Asia,Pop,"[
+  ""Rock"",
+  ""Hip-Hop/Rap"",
+  ""Alternative"",
+  ""Pop"",
+  ""J-Pop""
+]"
+16043,Guatemala City,16,Tier 3,2450212,14.6211,-90.527,Guatemala,North America,Latin,"[
+  ""Latin"",
+  ""Latin Pop"",
+  ""Christian"",
+  ""Pop"",
+  ""Latin Hip-Hop/Rap""
+]"
+6113,Istanbul,16,Tier 3,15029231,41.105,29.01,Türkiye,Asia,Pop,"[
+  ""Pop"",
+  ""Hip-Hop/Rap"",
+  ""Electronic"",
+  ""Dance"",
+  ""Alternative""
+]"
+2613,Paris,15,Tier 4,9904000,48.8667,2.3333,France,Europe,Pop,"[
+  ""Rock"",
+  ""R&B/Soul"",
+  ""Pop"",
+  ""Hip-Hop/Rap"",
+  ""Electronic""
+]"
+5666,Madrid,15,Tier 4,5567000,40.4,-3.6834,Spain,Europe,Pop,"[
+  ""Dance"",
+  ""Pop"",
+  ""Latin"",
+  ""Latin Pop"",
+  ""Electronic""
+]"
+5836,Taipei,15,Tier 4,6900273,25.0358,121.5683,Taiwan,Asia,Pop,"[
+  ""K-Pop"",
+  ""Soundtracks"",
+  ""Pop"",
+  ""Classical"",
+  ""Rock""
+]"
+4258,Amsterdam,14,Tier 4,1031000,52.35,4.9166,Netherlands,Europe,Pop,"[
+  ""Pop"",
+  ""Electronic"",
+  ""Dance"",
+  ""Rock"",
+  ""Alternative""
+]"
+5665,Barcelona,13,Tier 4,4920000,41.3833,2.1834,Spain,Europe,Pop,"[
+  ""Latin Pop"",
+  ""Pop"",
+  ""Latin"",
+  ""Electronic"",
+  ""Dance""
+]"
+3111,Mumbai,13,Tier 4,18978000,19.017,72.857,India,Asia,Indian,"[
+  ""Indian"",
+  ""Bollywood"",
+  ""Soundtracks"",
+  ""Pop"",
+  ""Electronic""
+]"
+4070,Puebla City,13,Tier 4,2195000,19.05,-98.2,Mexico,North America,Latin,"[
+  ""Latin"",
+  ""Pop"",
+  ""Rock"",
+  ""Latin Pop"",
+  ""Alternative""
+]"
+7380,Bengaluru,12,Tier 4,6787000,12.97,77.56,India,Asia,Pop,"[
+  ""Indian"",
+  ""Soundtracks"",
+  ""Hip-Hop/Rap"",
+  ""Electronic"",
+  ""Pop""
+]"

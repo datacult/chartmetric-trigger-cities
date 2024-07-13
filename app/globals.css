@@ -40,7 +40,7 @@ body {
   width: 1000px;
   height: 1000px;
   border-radius: 50%;
-  background: radial-gradient(circle 800px at center center,rgba(2, 122, 255, 1), rgba(0, 133, 255, 0) 350px, #1D1D21);
+  background: radial-gradient(circle 800px at center center,rgba(2, 122, 255, 1), #0085ff00 350px, #1D1D21);
 }
 
 .gradient-circle-right {
@@ -54,3 +54,18 @@ body {
   background: radial-gradient(circle 800px at center center,rgba(0, 255, 240, 1), rgba(0, 255, 240, 0) 350px, #1D1D21);
 }
 
+.tier1Marker {
+  background:  radial-gradient(circle at center center, rgba(242,94,255,0.5), rgba(0,0,0,0));
+}
+
+.tier2Marker {
+  background: radial-gradient(circle at center center, rgba(0,148,255,0.5), rgba(0,0,0,0));
+}
+
+.tier3Marker {
+  background: radial-gradient(circle at center center, rgba(70,228,171,0.5), rgba(0,0,0,0));
+}
+
+.tier4Marker {
+  background: radial-gradient(circle at center center, rgba(192,191,191,0.5), rgba(0,0,0,0));
+}
