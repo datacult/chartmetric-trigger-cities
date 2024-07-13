@@ -47,6 +47,21 @@
         "paint": {"fill-antialias": false, "fill-color": "rgb(27 ,27 ,29)"}
       },
       {
+        "id": "aeroway-area",
+        "type": "fill",
+        "metadata": {"mapbox:group": "1444849345966.4436"},
+        "source": "openmaptiles",
+        "source-layer": "aeroway",
+        "minzoom": 4,
+        "filter": [
+          "all",
+          ["==", "$type", "Polygon"],
+          ["in", "class", "runway", "taxiway"]
+        ],
+        "layout": {"visibility": "visible"},
+        "paint": {"fill-color": "#000", "fill-opacity": 1}
+      },
+      {
         "id": "boundary_country_z5-",
         "type": "line",
         "metadata": {"mapbox:group": "a14c9607bc7954ba1df7205bf660433f"},
