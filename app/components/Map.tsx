@@ -21,7 +21,7 @@ const TriggerCitiesMap = () => {
           latitude: 0,
           zoom: 1.5,
         }}
-        style={{ width: '100%', height: 620 }}
+        style={{ width: '100%', height: 620, opacity: 0.95 }}
         mapStyle="map_style.json"
         scrollZoom={false}
       >

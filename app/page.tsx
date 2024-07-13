@@ -22,7 +22,14 @@ export default function Home() {
           <div className="gradient-circle-right"></div>
           <div className="mx-auto max-w-screen-sm leading-relaxed whitespace-pre-line">{BODY}</div>
         </div>
-        <div className="w-screen my-36">
+        <div
+          className="relative w-screen my-36"
+          style={{
+            backgroundImage: 'url("/map_bg_gradient_1.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
           <TriggerCitiesMap />
         </div>
       </main>
