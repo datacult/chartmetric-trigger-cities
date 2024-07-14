@@ -1,1 +1,10 @@
 @import url("https://unpkg.com/maplibre-gl/dist/maplibre-gl.css");
+
+.maplibregl-popup-tip {
+    display: none;
+}
+
+.maplibregl-popup-content {
+    padding: 0px;
+    background: none;
+}

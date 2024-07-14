@@ -5,7 +5,7 @@ import { Logo } from './icons';
 
 export default function Home() {
   return (
-    <main className="relative flex h-screen min-h-fit flex-col items-center justify-between snap-y overflow-y-auto overflow-x-hidden">
+    <main className="relative flex h-screen w-screen min-h-fit flex-col items-center justify-between snap-y overflow-y-auto overflow-x-hidden">
       <div className="absolute top-6 right-6">
         <Logo />
       </div>
