@@ -3,8 +3,8 @@
 import * as React from 'react';
 import Head from 'next/head';
 import Map, { Marker, NavigationControl } from 'react-map-gl/maplibre';
-import './mapstyles.css';
-import { CITIES } from '../content';
+import './styles.css';
+import { CITIES } from '@/app/content';
 
 const TriggerCitiesMap = () => {
   const mapRef = React.useRef(null);
@@ -21,7 +21,7 @@ const TriggerCitiesMap = () => {
           latitude: 0,
           zoom: 1.5,
         }}
-        style={{ width: '100%', height: 620, opacity: 0.95 }}
+        style={{ width: '100%', height: 720, opacity: 0.95 }}
         mapStyle="map_style.json"
         scrollZoom={false}
       >
