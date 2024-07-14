@@ -5,11 +5,11 @@ import { Logo } from './icons';
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-between">
+    <main className="relative flex h-screen min-h-fit flex-col items-center justify-between snap-y overflow-y-auto overflow-x-hidden">
       <div className="absolute top-6 right-6">
         <Logo />
       </div>
-      <header className="flex justify-between w-screen px-16 mt-24 items-center">
+      <header className="flex justify-between w-screen px-16 pt-24 items-center">
         <h1 className="text-[116px] font-bold tracking-tight leading-none">
           Chartmetric
           <br />
@@ -17,13 +17,13 @@ export default function Home() {
         </h1>
         <h2 className="text-text-inverted text-[237px] opacity-20 font-bold tracking-tight leading-none">{YEAR}</h2>
       </header>
-      <div className="relative mt-28 w-screen">
+      <div className="relative mt-28 mb-36 w-screen">
         <div className="gradient-circle-left"></div>
         <div className="gradient-circle-right"></div>
         <div className="mx-auto max-w-screen-sm leading-relaxed whitespace-pre-line">{BODY}</div>
       </div>
       <div
-        className="relative w-screen my-36"
+        className="w-screen min-h-screen snap-end"
         style={{
           backgroundImage: 'url("/map_bg_gradient_1.png")',
           backgroundSize: 'cover',
