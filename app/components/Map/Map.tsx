@@ -120,7 +120,7 @@ const PopupContent: React.FC<TPopupContentProps> = ({ city }) => {
           <p className="border-b border-gray-300 pb-2 text-lg font-bold mb-2">Top 5 Genres</p>
           {city.CITY_TOP_5_GENRES.map((genre, i) => {
             return (
-              <p className="py-2 text-lg border-b border-gray-600">
+              <p key={genre} className="py-2 text-lg border-b border-gray-600">
                 {genre}
                 <span className="float-right font-bold text-gray-600">{i}</span>
               </p>
